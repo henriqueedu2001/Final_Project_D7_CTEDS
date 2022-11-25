@@ -1,0 +1,20 @@
+﻿<Window x:Class="Final_Project___D7__CTEDS_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Final_Project___D7__CTEDS_"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="660" Width="480">
+    <Grid>
+        <Label Margin="0,60,0,0" HorizontalAlignment="Center" FontSize="24" FontStyle="Normal" FontWeight="Medium">Autenticação de Usuário</Label>
+
+        <StackPanel>
+            <TextBlock Margin="60,145,60,0"  FontSize="16" >Usuário:</TextBlock>
+            <TextBox Margin="60,16,60,0" Width="360" Height="60"></TextBox>
+            <TextBlock Margin="60,85,60,0"  FontSize="16" >Senha:</TextBlock>
+            <PasswordBox Margin="60,16,60,0" Width="360" Height="60"></PasswordBox>
+            <Button Margin="0,120,0,0"   Width="240" Height="60" FontSize="16">Acessar</Button>
+        </StackPanel>
+    </Grid>
+</Window>
