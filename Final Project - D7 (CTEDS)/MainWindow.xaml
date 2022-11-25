@@ -11,10 +11,10 @@
 
         <StackPanel>
             <TextBlock Margin="60,145,60,0"  FontSize="16" >Usuário:</TextBlock>
-            <TextBox Margin="60,16,60,0" Width="360" Height="60"></TextBox>
+            <TextBox Name="EmailInput" Margin="60,16,60,0" Width="360" Height="60" FontSize="16"></TextBox>
             <TextBlock Margin="60,85,60,0"  FontSize="16" >Senha:</TextBlock>
-            <PasswordBox Margin="60,16,60,0" Width="360" Height="60"></PasswordBox>
-            <Button Margin="0,120,0,0"   Width="240" Height="60" FontSize="16">Acessar</Button>
+            <PasswordBox Name="PasswordInput" Margin="60,16,60,0" Width="360" Height="60" FontSize="16"></PasswordBox>
+            <Button Margin="0,120,0,0" Click="Button_Click" Width="240" Height="60" FontSize="16">Acessar</Button>
         </StackPanel>
     </Grid>
 </Window>

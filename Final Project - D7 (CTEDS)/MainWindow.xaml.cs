@@ -24,5 +24,20 @@ namespace Final_Project___D7__CTEDS_
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            string email = EmailInput.Text;
+            string password = PasswordInput.Password;
+            AutenticationPopUp autenticationPopUp;
+
+            if (Autentication.AutenticateUser(email, password))
+            {
+                CurrentUser.UserEmail = email;
+                CurrentUser.LoginStatus = "autenticaded";
+            }
+            autenticationPopUp = new AutenticationPopUp();
+            autenticationPopUp.Show();
+        }
     }
 }
