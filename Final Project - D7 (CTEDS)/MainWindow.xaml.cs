@@ -35,9 +35,15 @@ namespace Final_Project___D7__CTEDS_
             {
                 CurrentUser.UserEmail = email;
                 CurrentUser.LoginStatus = "autenticaded";
+
+                autenticationPopUp = new AutenticationPopUp();
+                autenticationPopUp.Show();
+                this.Close();
+            } else
+            {
+                autenticationPopUp = new AutenticationPopUp();
+                autenticationPopUp.Show();
             }
-            autenticationPopUp = new AutenticationPopUp();
-            autenticationPopUp.Show();
         }
     }
 }

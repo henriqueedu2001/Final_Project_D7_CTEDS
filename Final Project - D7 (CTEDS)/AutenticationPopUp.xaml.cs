@@ -30,5 +30,14 @@ namespace Final_Project___D7__CTEDS_
                 AutenticationMessage.Content = "Usuário autenticado!";
             }
         }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            if(CurrentUser.LoginStatus == "autenticaded")
+            {
+                UserPersonalSpace userpersonalspace = new UserPersonalSpace();
+                userpersonalspace.Show();
+            }
+        }
     }
 }
