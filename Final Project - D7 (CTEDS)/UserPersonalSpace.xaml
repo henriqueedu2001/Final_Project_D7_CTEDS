@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="UserPersonalSpace" Height="450" Width="800">
     <Grid>
-        
+        <StackPanel>
+            <Label Name="WelcomeMessage" HorizontalAlignment="Center" FontSize="16"> Seja bem vindo, </Label>
+            <TextBlock TextWrapping="Wrap" Margin="50,50,50,50" FontSize="14"> Saulo, o melhor professor :) Obrigado pela disciplina, pudemos aprender muito e fico muito satisfeito com o trabalho desenvolvido aqui! Gostei bastante das matérias e acredito elas me foram muito úteis em termos de conhecimento e aplicação. Abraço.</TextBlock>
+        </StackPanel>
     </Grid>
 </Window>
