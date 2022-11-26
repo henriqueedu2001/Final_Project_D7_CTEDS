@@ -10,9 +10,9 @@
         <Label Margin="0,60,0,0" HorizontalAlignment="Center" FontSize="24" FontStyle="Normal" FontWeight="Medium">Autenticação de Usuário</Label>
         <StackPanel>
             <TextBlock Margin="60,145,60,0"  FontSize="16" >Usuário:</TextBlock>
-            <TextBox Name="EmailInput" HorizontalAlignment="Left" Margin="60,16,00,0" Width="360" Height="60" FontSize="24"></TextBox>
+            <TextBox Name="EmailInput" HorizontalAlignment="Left" Margin="60,16,00,0" Width="360" Height="60" FontSize="32" TextAlignment="Left"></TextBox>
             <TextBlock Margin="60,85,60,0"  FontSize="16" >Senha:</TextBlock>
-            <PasswordBox Name="PasswordInput" HorizontalAlignment="Left" Margin="60,16,00,0" Width="360" Height="60" FontSize="24"></PasswordBox>
+            <PasswordBox Name="PasswordInput" HorizontalAlignment="Left" Margin="60,16,00,0" Width="360" Height="60" FontSize="32"></PasswordBox>
             <Button Margin="0,120,0,0" Click="Button_Click" Width="240" Height="60" FontSize="16">Acessar</Button>
         </StackPanel>
     </Grid>

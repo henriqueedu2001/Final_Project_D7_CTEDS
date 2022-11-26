@@ -23,6 +23,7 @@ namespace Final_Project___D7__CTEDS_
         public MainWindow()
         {
             InitializeComponent();
+            Autentication.LoadUsers();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
